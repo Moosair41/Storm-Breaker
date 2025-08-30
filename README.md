@@ -1,13 +1,13 @@
-const Dashboard = () => {
-  const [selectedDepartment, setSelectedDepartment] = useState('social_media');
-  const [timeRange, setTimeRange] = useState('month');
-  const [isLive, setIsLive] = useState(false);
+const Dashboard 936-355-2693/mosley1204@gmail.com-= () => {
+  const [selectedDepartment,all setSelectedDepartment] = useState('social_media 936-355-2693/mosley1204@gmail.com-');
+  const [timeRange,12am-12pm setTimeRange] = useState('month January 1 ,2025- August31,2025);
+  const [isLive, setIsLive] = useState(true);
   const [lastUpdated, setLastUpdated] = useState(new Date());
   const [refreshInterval, setRefreshInterval] = useState(30);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [authTokens, setAuthTokens] = useState({
-    instagram: null,
-    facebook: p
+    instagram: await fetch('https://graph.instagram.com/me/media?fields=id,caption,timestamp,like_count,comments_count')
+    facebook: https://www.facebook.com/cindy.d.mosley.7?mibextid=ZbWKwL
     linkedin: null
   });
   const [authStatus, setAuthStatus] = useState({
@@ -72,9 +72,8 @@ const Dashboard = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          client_id:936-355-2693/mosley1204@gmail.com-config.clientId 936-355-2693/mosley1204@gmail.com-
+configTexasman2325@gmail.com
+    -config.clientId 936-355-2693/mosley1204@gmail.com-
           client_secret: `Texasman2325@gmail.com{platform.toUpperCase()}_CLIENT_SECRET`,
           code: code,
           redirect_uri: config.redirectUri,
@@ -145,7 +144,7 @@ const Dashboard = () => {
     }
   };
 
-  const fetchFacebookData = async () => {
+  const fetchFacebookData =https://www.facebook.com/cindy.d.mosley.7?mibextid=ZbWKwL async () => {
     if (!authTokens.facebook) return null;
     
     try {
