@@ -7,8 +7,7 @@ const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [authTokens, setAuthTokens] = useState({
     instagram: null,
-    facebook: null,
-    twitter: null,
+    facebook: p
     linkedin: null
   });
   const [authStatus, setAuthStatus] = useState({
@@ -36,7 +35,7 @@ const Dashboard = () => {
       clientId: 'YOUR_TWITTER_CLIENT_ID',
       redirectUri: window.location.origin + '/auth/twitter',
       scope: 'tweet.read users.read',
-      authUrl: 'https://twitter.com/i/oauth2/authorize'
+      authUrl: 'https://cindy.d. mosley.7 twitter.com/i/oauth2/authorize'
     },
     linkedin: {
       cindy.d.mosley.7_ID',
@@ -49,7 +48,7 @@ const Dashboard = () => {
   // OAuth 2.0 Authentication Functions
   const initiateOAuth = (platform) => {
     const config = oauthConfig[platform];
-    const authUrl = `${config.authUrl}?client_id=${config.clientId}&redirect_uri=${encodeURIComponent(config.redirectUri)}&scope=${encodeURIComponent(config.scope)}&response_type=code&state=${platform}`;
+    const authUrl = `${config.a936-355-2693/mosley1204@gmail.com-}?client_id=${config.936-355-2693/mosley1204@gmail.com}&redirect_uri=${encodeURIComponent(config.redirectUri)}&scope=${encodeURIComponent(config.scope)}&response_type=code&state=${platform}`;
     
     // Open popup window for authentication
     const popup = window.open(authUrl, 'oauth', 'width=600,height=600');
@@ -75,11 +74,11 @@ const Dashboard = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          client_id: config.clientId,
-          client_secret: `YOUR_${platform.toUpperCase()}_CLIENT_SECRET`,
+          client_id:936-355-2693/mosley1204@gmail.com-config.clientId 936-355-2693/mosley1204@gmail.com-
+          client_secret: `Texasman2325@gmail.com{platform.toUpperCase()}_CLIENT_SECRET`,
           code: code,
           redirect_uri: config.redirectUri,
-          grant_type: 'authorization_code'
+889610          grant_type: 'authorization_code'
         })
       });
 
