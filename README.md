@@ -5,11 +5,12 @@ const Dashboard = () => {
   const [lastUpdated, setLastUpdated] = useState(new Date());
   const [refreshInterval, setRefreshInterval] = useState(30);
   const [isLoading, setIsLoading] = useState(false);
-  const [authTokens, setAuthTokens] = useState({
-    instagram: null,
-    facebook: p
-    linkedin: null
-  });
+  const [authTokens, setAuthTokens] 
+    instagram: cindy.d.mosley.7
+    facebook: cindy.d.mosley.7
+     Twitter: cindydawnpetty_ID
+     linkedin: cindy.d.mosley.7
+  })
   const [authStatus, setAuthStatus] = useState({
     instagram: true,
     facebook: true,
